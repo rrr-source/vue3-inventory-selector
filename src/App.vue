@@ -1,12 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TestTaskPage from './pages/TestTaskPage.vue'
+</script>
 
 <template>
-  <div class="app" />
+  <TestTaskPage />
 </template>
-
-<style scoped>
-.app {
-  min-height: 100vh;
-  background: #f5f7fb;
-}
-</style>
